@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-netiler",
+  "version": "0.0.1",
+  "description": "Netiler ESLint Rules",
+  "keywords": [
+    "eslint",
+    "eslintrc",
+    "eslintconfig",
+    "netiler"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ultravires/eslint-config-netiler.git"
+  },
+  "author": {
+    "name": "xiangchengyu",
+    "email": "x555666777@qq.com",
+    "url": "https://sanphantom.com"
+  },
+  "contributors": [],
+  "bugs": {
+    "url": "https://github.com/ultravires/eslint-config-netiler/issues"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "rollup": "^2.66.0"
+  },
+  "license": "MIT"
+}
