@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-netiler",
+  "name": "@netiler/eslint-config-netiler",
   "version": "0.0.2",
   "description": "Netiler ESLint Rules",
   "keywords": [
@@ -16,11 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/ultravires/eslint-config-netiler.git"
   },
-  "author": {
-    "name": "xiangchengyu",
-    "email": "x555666777@qq.com",
-    "url": "https://sanphantom.com"
-  },
+  "author": "xiangchengyu <x555666777@qq.com> (https://sanphantom.com)",
   "contributors": [],
   "bugs": {
     "url": "https://github.com/ultravires/eslint-config-netiler/issues"
@@ -29,5 +25,9 @@
     "eslint": "^8.7.0",
     "rollup": "^2.66.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/ultravires/eslint-config-netiler#readme",
+  "directories": {
+    "test": "test"
+  }
 }
