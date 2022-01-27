@@ -9,6 +9,6 @@ ESLint (http://eslint.org) rules (all rules included) by netiler team.
 
 ```js
 module.exports = {
-  extends: ['netiler']
+  extends: ['@netiler/netiler']
 };
 ```
