@@ -1,5 +1,6 @@
 module.exports = {
   plugins: ['vue'],
+  extends: ['plugin:vue/recommended'],
   rules: {
     /**
      * 标签属性必须按规则排序
