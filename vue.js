@@ -1,7 +1,7 @@
 module.exports = {
   parser: 'vue-eslint-parser',
   parserOptions: {
-    ecmaVersion: 6,
+    ecmaVersion: 8,
     ecmaFeatures: {
       jsx: true,
     },
@@ -439,7 +439,6 @@ module.exports = {
     'vue/require-component-is': 'error',
     /**
      * props 如果不是 required 的字段，必须有默认值
-     * @reason 类型相关的约束交给 TypeScript
      */
     'vue/require-default-prop': 'off',
     /**
@@ -488,7 +487,6 @@ module.exports = {
     'vue/require-v-for-key': 'error',
     /**
      * prop 的默认值必须匹配它的类型
-     * @reason 类型相关的约束交给 TypeScript
      */
     'vue/require-valid-default-prop': 'off',
     /**
@@ -623,5 +621,17 @@ module.exports = {
      * v-text 指令必须合法
      */
     'vue/valid-v-text': 'error',
+    /**
+     * 标签中没有内容需要写成单标签
+     */
+    'vue/html-self-closing': 'off',
+    /**
+     * 标签属性过长需要换行
+     */
+    'vue/max-attributes-per-line': 'off',
+    /**
+     * 标签名称必须是多个单词
+     */
+    'vue/multi-word-component-names': 'off',
   },
 };
