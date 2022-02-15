@@ -28,7 +28,8 @@
     "eslint": "^8.7.0",
     "eslint-plugin-vue": "^8.4.1",
     "prettier": "^2.5.1",
-    "rollup": "^2.66.0"
+    "rollup": "^2.66.0",
+    "vue-eslint-parser": "^8.2.0"
   },
   "license": "MIT",
   "homepage": "https://github.com/ultravires/eslint-config-netiler#readme",
