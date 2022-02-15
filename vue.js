@@ -1,10 +1,15 @@
 module.exports = {
   parser: 'vue-eslint-parser',
   parserOptions: {
+    parser: '@babel/eslint-parser',
     ecmaVersion: 8,
     ecmaFeatures: {
       jsx: true,
     },
+    // 即使没有 babelrc 配置文件，也使用 @babel/eslint-parser 来解析
+    requireConfigFile: false,
+    // 仅允许 import export 语句出现在模块的顶层
+    allowImportExportEverywhere: false,
     sourceType: 'module',
   },
   env: {

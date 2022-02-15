@@ -25,6 +25,7 @@
     "url": "https://github.com/ultravires/eslint-config-netiler/issues"
   },
   "devDependencies": {
+    "@babel/eslint-parser": "^7.17.0",
     "eslint": "^8.7.0",
     "eslint-plugin-vue": "^8.4.1",
     "prettier": "^2.5.1",
