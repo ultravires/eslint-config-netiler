@@ -187,8 +187,8 @@ module.exports = {
     'vue/no-duplicate-attributes': [
       'error',
       {
-        allowCoexistClass: false,
-        allowCoexistStyle: false,
+        allowCoexistClass: true,
+        allowCoexistStyle: true,
       },
     ],
     /**
