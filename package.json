@@ -26,11 +26,11 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.17.0",
-    "eslint": "^8.7.0",
-    "eslint-plugin-vue": "^8.4.1",
-    "prettier": "^2.5.1",
-    "rollup": "^2.66.0",
-    "vue-eslint-parser": "^8.2.0"
+    "eslint": "^8.11.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "prettier": "^2.6.1",
+    "rollup": "^2.70.1",
+    "vue-eslint-parser": "^8.3.0"
   },
   "license": "MIT",
   "homepage": "https://github.com/ultravires/eslint-config-netiler#readme",
