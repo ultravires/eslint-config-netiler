@@ -2,7 +2,7 @@ module.exports = {
   parser: 'vue-eslint-parser',
   parserOptions: {
     parser: '@babel/eslint-parser',
-    ecmaVersion: 8,
+    ecmaVersion: 2020,
     ecmaFeatures: {
       jsx: true,
     },
@@ -19,7 +19,7 @@ module.exports = {
     node: true,
   },
   plugins: ['vue'],
-  extends: ['plugin:vue/recommended'],
+  extends: ['plugin:vue/base'],
   rules: {
     /**
      * 标签属性必须按规则排序
