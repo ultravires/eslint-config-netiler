@@ -36,5 +36,9 @@
   "homepage": "https://github.com/ultravires/eslint-config-netiler#readme",
   "directories": {
     "test": "test"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
