@@ -638,5 +638,9 @@ module.exports = {
      * 标签名称必须是多个单词
      */
     'vue/multi-word-component-names': 'off',
+    /**
+     * 元素内容必须换行
+     */
+    'vue/singleline-html-element-content-newline': 'off'
   },
 };
