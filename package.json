@@ -1,6 +1,6 @@
 {
   "name": "@netiler/eslint-config-netiler",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Netiler ESLint Rules",
   "keywords": [
     "eslint",
