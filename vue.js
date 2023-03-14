@@ -13,6 +13,7 @@ module.exports = {
     sourceType: 'module',
   },
   env: {
+    'vue/setup-compiler-macros': true,
     browser: true,
     commonjs: true,
     es6: true,
